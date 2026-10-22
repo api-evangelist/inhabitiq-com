@@ -1,25 +1,76 @@
 aid: inhabitiq-com
+
 name: Inhabit
-description: 'Inhabit is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by insight-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://inhabit.com/wp-content/uploads/2022/03/property-management-software.png
+
+description: 'Inhabit is a global PropTech software company that provides property management and accounting software, along with related solutions such as payments, CRM, resident screening, utility billing, compliance, and digital marketing. Its products serve residential and vacation property managers, owners, and operators worldwide. The company offers both native integrations within its PMS and API‑based options for third‑party systems.'
+
 url: https://raw.githubusercontent.com/api-evangelist/inhabitiq-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- Property Management
+- Payments
+- CRM
+- Resident Screening
+- Utility Billing
+- Compliance
+- Vacation
+- Residential
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- insight-partners
+
 common:
+- type: Hosts
+  url: hosts/inhabitiq-com-hosts.yml
+- type: Vendors
+  url: vendors/inhabitiq-com-vendors.yml
+- type: PrivacyPolicy
+  url: https://inhabit.com/privacy-policy/
+- type: Newsroom
+  url: https://inhabit.com/news/
+- type: Leadership
+  url: https://inhabit.com/about/leadership/
+- type: Blog
+  url: https://inhabit.com/blog/
+- type: DomainSecurity
+  url: security/inhabitiq-com-domain-security.yml
 - type: Website
   url: https://inhabitiq.com/
+
+apis: []
+
+x-backed-by:
+- insight-partners
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The developer site renders content via JavaScript, preventing machine-readable spec discovery.
+  evidence:
+    - url: https://inhabit.com/
+      status: 200
+  checked: '2026-10-22'
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

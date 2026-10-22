@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/inhabitiq-com/integrations
+- https://zapier.com/apps/inhabitiq/integrations
+- https://zapier.com/apps/inhabit/integrations
+- https://n8n.io/integrations/inhabitiq-com/
+- https://n8n.io/integrations/inhabitiq/
+- https://composio.dev/toolkits/inhabitiq-com
+- https://monid.ai/tools/inhabitiq-com
+checked:
+- https://composio.dev/toolkits/inhabitiq-com
+- https://monid.ai/tools/inhabitiq-com
+- https://n8n.io/integrations/inhabitiq-com/
+- https://n8n.io/integrations/inhabitiq/
+- https://zapier.com/apps/inhabit/integrations
+- https://zapier.com/apps/inhabitiq-com/integrations
+- https://zapier.com/apps/inhabitiq/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
